@@ -2,6 +2,6 @@
 #define DRAWFLOOD_H
 
 int main(int argc, char *argv[]);
-void net_listen();
+int net_listen(struct sockaddr_storage* addr, size_t addr_len);
 
 #endif
