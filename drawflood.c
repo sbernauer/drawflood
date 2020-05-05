@@ -9,7 +9,7 @@ int main(int argc, char *argv[]) {
 	printf("Starting drawflood\n");
 	char* listen_address = LISTEN_ADDRESS_DEFAULT;
 
-	char opt;
+	int opt;
 	while((opt = getopt(argc, argv, "l:")) != -1) {
 		switch(opt) {
 			case('l'):
